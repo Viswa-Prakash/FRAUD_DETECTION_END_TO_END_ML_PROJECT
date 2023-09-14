@@ -1,0 +1,11 @@
+training_pipeline_config:
+pipeline_name: fraud_detection_artifact
+artifact_dir: artifact
+
+data_ingestion_config:
+dataset_download_url: https://drive.google.com/uc?export=download&confirm=6gh6&id=1VNpyNkGxHdskfdTNRSjjyNa5qC9u0JyV
+raw_data_dir: raw_data
+ingested_dir: ingested_data
+ingested_train_dir: train
+ingested_test_dir: test
+
